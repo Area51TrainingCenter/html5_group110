@@ -1,0 +1,43 @@
+body
+{
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	background-color: #ddd;
+}
+
+a{
+	color: #DFA654;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+img
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+nav
+{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+
+#enlacelogo
+{
+	display: block;
+	margin: 0 0 20px 0;
+}
+
+#loguito
+{
+	width: 200px;
+}
