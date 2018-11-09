@@ -1,0 +1,34 @@
+Tags faltantes
+
+<cite>
+La etiqueta <cite> define el título de una obra (por ejemplo, un libro, una canción, una película, un programa de televisión, una pintura, una escultura, etc.).
+Nota: El nombre de una persona no es el título de una obra.
+
+<i>
+Define el texto italico
+
+<mark>
+El elemento HTML <mark> define el texto marcado o resaltado:
+
+<pre>
+La etiqueta <pre> define el texto preformateado.
+El texto en un elemento <pre> se muestra en una fuente de ancho fijo (generalmente Courier), y conserva espacios y saltos de línea.
+
+<time> 
+La etiqueta <time> define una fecha / hora legible por humanos.
+Este elemento también se puede usar para codificar fechas y horas de forma legible por la máquina, de modo que los agentes de usuarios 
+puedan ofrecer agregar recordatorios de cumpleaños o eventos programados al calendario del usuario, y los motores de búsqueda pueden producir resultados de búsqueda más inteligentes.
+
+<fieldset>
+La etiqueta <fieldset> se usa para agrupar elementos relacionados en un formulario.
+La etiqueta <fieldset> dibuja un cuadro alrededor de los elementos relacionados.
+
+<legend>
+La etiqueta <legend> define un título para el elemento <fieldset>.
+
+
+<dl>
+La etiqueta <dl> define una lista de descripción.
+La etiqueta <dl> se usa junto con <dt> (define términos / nombres) y <dd> (describe cada término / nombre).
+<dt>
+<dd>
