@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<a href="index.html" id="enlace-logo">
+			<img src="img/logo.png" id="logo">
+		</a>
+		<nav>
+			<a href="#inicio">INICIO</a>
+			<a href="#nosotros">NOSOTROS</a>
+			<a href="#servicios">SERVICIOS</a>
+			<a href="#contacto">CONTACTO</a>
+		</nav>
+	</header>
+	<main>
+		<section id="inicio">
+			<video autoplay width="100%" height="600px" muted loop  poster="img/portada.jpg">
+				<source src="video/video.mp4" type="video/mp4">
+				<source src="video/video.webm" type="video/webm">
+				<source src="video/video.ogv" type="video/ogv">
+			</video>
+			<h1>Este carro esta bonito</h1>
+		</section>
+		<section id="nosotros">
+			<article>
+				<h2>Nosotros</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+				<p> Duis aute irure dolor in reprehenderit in voluptate 	velit esse cillum dolore eu fugiat nulla pariatur. 	Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<img src="img/imagen1.jpg">
+				<ul>
+					<li><b>Vision:</b> Lorem ipsum <i>dolor sit</i> amet, consectetur adipisicing elit,</li>
+					<li><strong>Misiòn:</strong> Lorem ipsum <em>dolor sit amet</em>, consectetur adipisicing elit,</li>
+					<li><b>Objetivo:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit,</li>
+				</ul>
+			</article>
+		</section>
+		<section id="servicios">
+			<article>
+				<h2>Servicios</h2>
+				<table border="5" width="50%" cellpadding="10px" cellspacing="10px">
+					<tr bgcolor="grey">
+						<td bgcolor="red" width="50%" >
+							Servicio 1
+						</td>
+						<td height="100px" align="center" valign="bottom">contenido</td>
+					</tr>
+					<tr bgcolor="grey">
+						<td>
+							Servicio 2
+						</td>
+						<td align="left" height="100px" valign="top">
+							contenido
+						</td>
+
+					</tr>
+					<tr bgcolor="grey">
+						<td>
+							Servicio 3
+						</td>
+						<td align="right" height="100px" valign="middle">
+							contenido
+						</td>
+					</tr>
+				</table>
+
+
+
+
+				<table border="3" width="50%" cellpadding="10px" cellspacing="10px">
+					<tr bgcolor="grey">
+						<td width="50" align="center" colspan="3"  >Tabla de servicios</td>
+					</tr>
+					<tr>
+						<td rowspan="2" >
+							Servicio 2
+						</td>
+						<td>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</td>
+						<td>
+							Servicio 2
+						</td>
+					</tr>
+					<tr bgcolor="grey">
+						<td colspan="2">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</td>
+					</tr>
+				</table>
+			</article>
+
+		</section>
+		<section id="contacto">
+			<article>
+				<h2>Contacto</h2>
+				<form id="frmcontacto" name="frmcontacto" method="get" action="registro.php" enctype="multipart/form-data">
+					<input type="hidden"  name="codigo" id="codigo" value="0001"><br>
+					<input type="text" placeholder="DNI" required name="dni" id="dni" value="" minlength="8" maxlength="8"><br>
+					<input type="text" placeholder="Nombre" required name="nombre" id="nombre" value=""><br>
+					<input type="password" placeholder="Password" name="passsword" id="password"><br>
+					<input type="email" placeholder="Email" name="email" id="email"><br>
+					<input type="number" name="numero" id="numero"><br>
+					<input type="text" placeholder="Direccion" name="direccion" id="direccion"><br>
+					<input type="color"  name="color" id="color"><br>
+					<input type="date"  name="fecha" id="fecha"><br>
+					<input type="file"  name="archivo" id="archivo"><br>
+					<input type="range"  name="rango" id="rango" min="0" max="100"><br>
+					<input type="time"  name="hora" id="hora" min="0" max="100"><br>
+					<input type="url"  name="web" id="web"><br>
+					<input type="month"  name="meses" id="meses"><br>
+					<input type="week"  name="semana" id="semana"><br>
+					<label>lMASCULINO</label><input type="radio"  name="sexo" value="M"><br>
+					FEMENINO<input type="radio"  name="sexo" value="F"><br>
+
+					Toyota<input type="checkbox"  name="respuesta1" value="r1"><br>
+					Audi<input type="checkbox"  name="respuest2" value="r2"><br>
+					Ferrari<input type="checkbox"  name="respuesta3" value="r3"><br>
+					<select name="distritos" id="distritos" multiple>
+						<option>-- Seleccione aqui --</option>
+						  <optgroup label="Cono Norte">
+							<option value="lo">Los Olivos</option>
+							<option value="ind" selected>Independencia</option>
+						  </optgroup>
+						   <optgroup label="Cono Sur">
+							<option value="cho">Chorrillos</option>
+							<option value="ves" selected>Villa el salvador</option>
+						  </optgroup>
+						    
+						<option value="mir">Miraflores</option>
+						<option value="smp" selected>San MArtin</option>
+						<option value="sbn">San Borja Norte</option>
+						<option value="sbs">San Borja Sur</option>
+					</select><br>
+					<textarea cols="20" rows="10" name="mensaje" id="mensaje" placeholder="Mensaje"></textarea><br>
+					<input type="submit" name="enviar" value="ENVIAR">
+					<input type="reset" name="reset" value="LIMPIAR">
+
+				</form>
+			</article>
+		</section>
+	</main>
+	<footer>Derechos Reservado 2018</footer>
+</body>
+</html>
