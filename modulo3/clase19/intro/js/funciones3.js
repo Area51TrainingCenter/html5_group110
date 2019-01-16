@@ -1,37 +1,39 @@
 var contador = 0;
+var cantidad = jQuery(".fila1 img").length;
 jQuery(document).ready(function(){
-	var cantidad = jQuery(".fila1 img").length;
+
 
 	console.log(cantidad);
 
 	jQuery(".antes").click(function(){
-		if(contador >= 0)
+
+		if(contador > 0)
 		{
-			carga(contador);
 			contador--;
+			console.log(contador);
+			carga(contador);
+			
 		}else{
 			contador = 0;
 		}
-
-		console.log(contador);
 	});
 
 	jQuery(".despues").click(function(){
-		if(contador <= cantidad)
+		
+		if(contador < cantidad)
 		{
-			carga(contador);
 			contador++;
+			console.log(contador);
+			carga(contador);
+
 		}else{
 			contador = cantidad;
 		}
-
-		console.log(contador);
 	});
-
 });
 
 function carga(conta)
 {
-	var url = jQuery(".imagen"+conta).attr("src");
+	var url = jQuery(".fila1 .imagen"+conta).attr("src");
 	jQuery(".imagengrande").attr("src",url);
 }
