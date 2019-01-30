@@ -1,0 +1,105 @@
+*
+{
+	box-sizing: border-box;
+}
+
+section
+{
+	height: 100vh;
+	position: relative;
+}
+
+section#seccion1
+{
+	background-color: #000;
+}
+
+section#seccion2
+{
+	background-color: green
+}
+
+section#seccion3
+{
+	background-color: red
+}
+
+section#seccion4
+{
+	background-color: blue
+}
+
+
+section a
+{
+	position: absolute;
+	bottom: 60px;
+	left: 50%;
+	color: #fff;
+	text-decoration: none;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	border: 2px solid #fff;
+}
+
+.btnregresar
+{
+	display: flex;
+	color: #fff;
+	text-decoration: none;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	border: 2px solid #fff;	
+	left: auto;
+	position: fixed;
+	right: 30px;
+	bottom: 60px;
+	display: none;
+}
+
+.cuadrado
+{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	margin-bottom: 15px;
+}
+
+.cuadrado .cuadrado
+{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #fff;
+}
+
+.circulo
+{
+	width: 70px;
+	height: 70px;
+	background-color: green;
+	border-radius: 100%;
+}
+
+#respuesta.error
+{
+	color: red;
+	padding: 10px 20px;
+	border: 1px solid red;
+}
+
+#respuesta.ok
+{
+	color: green;
+	padding: 10px 20px;
+	border: 1px solid green;
+}
